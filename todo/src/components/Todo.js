@@ -18,6 +18,7 @@ const Todo = () => {
         <div className="container">
             <form onSubmit={handleSubmit}>
                 <input 
+                    placeholder="Add todo"
                     className="todo-input" 
                     type="text" 
                     onChange={handleChanges} 
